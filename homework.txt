@@ -1,0 +1,8 @@
+import math
+
+def radius(r, alpha_radians):
+    alpha_degrees = alpha_radians * 180 / math.pi
+    s = (math.pi * r ** 2) * alpha_degrees / 360
+    print("Sector", s)
+
+radius(5, math.pi/3)
